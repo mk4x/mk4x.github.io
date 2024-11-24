@@ -1,0 +1,49 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	padding: 10px;
+	margin: 50px auto;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+	max-width: 1200px;
+}
+.header > h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.main {
+	max-width: 1200px;
+	justify-content: center;
+	display: flex;
+	justify-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.introduction,
+.skills,
+.competencies {
+	width: 51%;
+	padding: 30px;
+	border: 1px solid black;
+	margin: 20px 0;
+	min-width: 400px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	padding: 10px;
+	margin: 20px 0;
+	margin-bottom: 60px;
+}
